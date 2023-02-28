@@ -145,7 +145,7 @@
 	padding-top: 188px;
   padding-bottom: 188px;
   max-width: 1440px;
-  height: 600px;
+  
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
@@ -284,20 +284,13 @@
 	background-position: center;
   }
   
-  .advantages .chapter:nth-child(1)::before {
-	background-image: url(../images/antenna.svg);
-  }
+  .icon-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
   
-  .advantages .chapter:nth-child(2)::before {
-	background-image: url(../images/clock.svg);
-  }
-  
-  .advantages .chapter:nth-child(3)::before {
-	background-image: url(../images/diagram.svg);
-  }
-  
-  .advantages .chapter:nth-child(4)::before {
-	background-image: url(../images/astronaut.svg);
+	background-color: var(--secondary-bg-color);
   }
   
   /* Work */
@@ -539,6 +532,8 @@
 	background-color: var(--accent-color);
 	color: var(--hero-text-color);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border: 1px solid var(--accent-color);
+
 
   }
 
