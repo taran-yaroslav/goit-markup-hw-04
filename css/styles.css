@@ -413,7 +413,6 @@
     color: var(--accent-color);  }
   .client-page:hover .client-icon,
   .client-page:focus .client-icon {
-	fill: var(--accent-color);
   }
   
   .clients-list {
