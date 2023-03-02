@@ -270,23 +270,19 @@
   
   .advantages .chapter {
 	width: calc((100%-24px*3)/4);
+	width: 264px;
   }
   
   .icon-box {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 264px;
+	
 	height: 112px; 
 	background: #F4F4FD;
     border-radius: 4px;
 	background-color: var(--footer-logo-part); 
 	 margin-bottom: 8px;
-	background-color:var(--footer-logo-part);
-	
-	
-	
-	
 	
   }
   
@@ -411,9 +407,7 @@
   .client-page:focus {
 	border-color: var(--accent-color);
     color: var(--accent-color);  }
-  .client-page:hover .client-icon,
-  .client-page:focus .client-icon {
-  }
+  
   
   .clients-list {
 	margin-top: 0;
@@ -529,7 +523,7 @@
 	background-color: var(--accent-color);
 	color: var(--hero-text-color);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-	border: 1px solid var(--accent-color);
+	
 
 
   }
